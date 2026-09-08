@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, Suspense } from "react";
+import DWASFWLoader from "@/components/GDGLoader";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Bricolage_Grotesque, Space_Grotesk } from "next/font/google";
 import { Button } from "@/components/ui/button";
